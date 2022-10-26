@@ -7,7 +7,7 @@ import { toLocaleDate } from '../helpers/dateConverter'
 export default function Home({ data }) {
 
   return (
-    <div className="w-screen h-screen bg-white flex flex-col">
+    <div className="bg-white flex flex-col items-center">
       <Head>
         <title>Post.IO</title>
         <meta name="description" content="My first blog with Nextjs" />
@@ -15,7 +15,7 @@ export default function Home({ data }) {
       </Head>
 
       <header className="w-full h-20 flex justify-between px-32 bg-gray-900 items-center">
-        <Link href="#">
+        <Link href="/">
           <a>
             <Image src="/jamstack.svg" alt="" width={150} height={70} />
           </a>
