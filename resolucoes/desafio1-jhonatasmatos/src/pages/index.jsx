@@ -23,7 +23,7 @@ export default function Home({ data }) {
         <p className="text-white w-40 text-md">Post.io</p>
       </header>
       
-      <main className="w-screen h-screen mt-12 flex flex-col items-center">
+      <main className="w-full mt-12 flex flex-col items-center">
           {
             data?.posts?.map((post) => (  
               <div className="w-1/2 h-52 flex justify-between border-b-[2px] mt-8 py-4">
